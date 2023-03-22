@@ -42,5 +42,5 @@ services:
     image: mysql:5.7
     container_name: mysql-data-container
     volumes:
-      - /var/lib/mysql
+      - ./data/mysql/:/var/lib/mysql/
     command: "true" 
